@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "mycrocastSwiftMediasoup",
+    name: "Mediasoup",
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "mycrocastSwiftMediasoup",
-            targets: ["MycrocastSwiftMediasoup"]),
+            name: "Mediasoup",
+            targets: ["Mediasoup"]),
     ],
     targets: [
-        .binaryTarget(name: "MycrocastSwiftMediasoup",
+        .binaryTarget(name: "Mediasoup",
                       path: "frameworks/Mediasoup.xcframework")]
 )
