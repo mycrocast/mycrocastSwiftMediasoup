@@ -11,9 +11,6 @@ let package = Package(
             name: "Mediasoup",
             targets: ["Mediasoup"]),
     ],
-    dependencies: [
-        .package(url: "https://github.com/mycrocast/mycrocastSwiftWebRTC.git", exact: "1.0.1")
-    ],
     targets: [
         .binaryTarget(name: "Mediasoup",
                       path: "frameworks/Mediasoup.xcframework")]
